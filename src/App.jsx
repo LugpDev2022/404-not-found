@@ -1,4 +1,5 @@
 import { NotFound } from './components/NotFound/NotFound';
+import { ProblemInfo } from './components/ProblemInfo/ProblemInfo';
 import { Scarecrow } from './components/Scarecrow/Scarecrow';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <NotFound></NotFound>
       <Scarecrow></Scarecrow>
+      <ProblemInfo></ProblemInfo>
     </>
   );
 }
