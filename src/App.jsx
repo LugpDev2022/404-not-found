@@ -1,8 +1,11 @@
 import { useState } from 'react'
+import { NotFound } from './components/NotFound/NotFound'
 
 function App() {
   return (
-    <h1>404 not found</h1>
+    <>
+      <NotFound></NotFound>
+    </>
   )
 }
 

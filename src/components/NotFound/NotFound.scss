@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Inconsolata;
+  src: url(../../fonts/Inconsolata.ttf);
+}
+
+span {
+  color: #333333;
+  font-family: Inconsolata;
+  font-size: 24px;
+  font-weight: 700;
+  left: clamp(24px, 70px, 77px);
+  position: absolute;
+  top: clamp(20px, 40px, 45px);
+}
