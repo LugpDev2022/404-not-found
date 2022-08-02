@@ -3,6 +3,6 @@ import './Scarecrow.scss';
 
 export const Scarecrow = () => (
   <div>
-    <img src={scarecrowImage} alt='scarecrow' />;
+    <img src={scarecrowImage} alt='scarecrow' />
   </div>
 );

@@ -7,3 +7,15 @@ div {
     width: 500px;
   }
 }
+
+@media (max-width: 1030px) {
+  div img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 440px) {
+  div img {
+    width: 320px;
+  }
+}

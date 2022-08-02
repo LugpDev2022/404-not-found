@@ -26,10 +26,51 @@
     background-color: #333;
     color: #fff;
     display: block;
+    margin-bottom: 30px;
     margin-top: 70px;
     padding: 20px;
     text-align: center;
     text-decoration: none;
     width: 200px;
+  }
+}
+
+@media (max-width: 1520px) {
+  .problem-info {
+    h1 {
+      font-size: 59px;
+    }
+    p {
+      margin-right: 170px;
+      width: 60%;
+    }
+  }
+}
+
+@media (max-width: 1030px) {
+  .problem-info {
+    h1 {
+      font-size: 48px;
+      width: 100%;
+    }
+    p {
+      font-size: 22px;
+      margin: 0px;
+      width: 100%;
+    }
+  }
+}
+
+@media (max-width: 820px) {
+  .problem-info {
+    flex-basis: 90%;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .problem-info p {
+    font-size: 20px;
   }
 }
