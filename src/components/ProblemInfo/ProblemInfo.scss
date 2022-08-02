@@ -4,25 +4,32 @@
 }
 
 .problem-info {
+  display: flex;
+  flex-basis: 50%;
+  flex-flow: row wrap;
   font-family: 'Space Mono', Arial, Helvetica, sans-serif;
+  justify-content: left;
   h1 {
-    width: 70%;
-    font-weight: 700;
-    font-size: 64px;
     color: #333;
+    font-size: 64px;
+    font-weight: 700;
+    width: 70%;
   }
   p {
-    font-weight: 400;
+    color: #4f4f4f;
     font-size: 24px;
+    font-weight: 400;
+    margin-right: 500px;
     width: 45%;
   }
   a {
-    display: block;
-    width: 200px;
-    text-align: center;
     background-color: #333;
-    padding: 20px;
     color: #fff;
+    display: block;
+    margin-top: 70px;
+    padding: 20px;
+    text-align: center;
     text-decoration: none;
+    width: 200px;
   }
 }

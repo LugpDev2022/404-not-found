@@ -2,7 +2,7 @@
   align-items: center;
   display: flex;
   flex-flow: wrap row;
-  gap: clamp(50px, 200px, 300px);
-  justify-content: center;
-  padding-top: clamp(10vh, 25vh, 30vh);
+  justify-content: space-between;
+  padding-top: 20vh;
+  width: 100%;
 }
