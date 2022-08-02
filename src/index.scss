@@ -1,0 +1,7 @@
+#root {
+  display: flex;
+  flex-flow: wrap row;
+  padding-top: clamp(10vh, 25vh, 30vh);
+  align-items: center;
+  justify-content: center;
+}

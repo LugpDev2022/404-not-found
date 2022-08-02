@@ -1,12 +1,13 @@
-import { useState } from 'react'
-import { NotFound } from './components/NotFound/NotFound'
+import { NotFound } from './components/NotFound/NotFound';
+import { Scarecrow } from './components/Scarecrow/Scarecrow';
 
 function App() {
   return (
     <>
       <NotFound></NotFound>
+      <Scarecrow></Scarecrow>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
