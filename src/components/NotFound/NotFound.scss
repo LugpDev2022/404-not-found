@@ -3,7 +3,7 @@
   src: url(../../fonts/Inconsolata.ttf);
 }
 
-span {
+.not-found {
   color: #333333;
   font-family: Inconsolata;
   font-size: 24px;
@@ -14,7 +14,7 @@ span {
 }
 
 @media (max-width: 850px) {
-  span {
+  .not-found {
     left: 24px;
     top: 20px;
   }
